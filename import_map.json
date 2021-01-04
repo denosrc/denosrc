@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "/modules/": "./modules/",
+
+    "/#/std/": "http://denosrc/deno.land/std@0.82.0/",
+
+    "/#/package-b/": "http://context-b/deno.land/x/package-b@1.0.0/",
+    "/#/package-c/": "http://context-c/deno.land/x/package-c@2.0.0/",
+    
+    "http://context-b/#/package-d/": "http://context-d3/deno.land/x/package-d@3.0.0/",
+    "http://context-c/#/package-d/": "http://context-d4/deno.land/x/package-d@4.0.0/",
+    
+    "http://context-b/#/package-e/": "http://denosrc/deno.land/x/package-e@5.0.0/",
+    "http://context-c/#/package-e/": "http://denosrc/deno.land/x/package-e@5.0.0/"
+  }
+}
